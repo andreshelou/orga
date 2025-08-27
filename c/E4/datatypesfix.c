@@ -5,7 +5,7 @@ int main(void) {
 	int x = 2;
 	printf("\nSize of stdint Types:\n");
 	printf("\n- 8 bitz:\n");
-	printf("%i", x);
+	printf("%i \n", x);
 	printf("       %-9s %6zu bytes. \n","int8_t ", sizeof(int8_t) );
 	printf("       %-9s %6zu bytes. \n","uint8_t ", sizeof(uint8_t) );
 	printf("\n- 16 bitz:\n");
